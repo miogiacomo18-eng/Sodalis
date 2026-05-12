@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Sodalis",
+    "slug": "sodalis",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "sodalis",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.sodalis.app"
+    },
+    "android": {
+      "package": "com.sodalis.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+    }
+  }
+}
